@@ -7,11 +7,19 @@ df = pd.read_csv('sample_ebird_data.txt', sep='\t', index_col='GLOBAL UNIQUE IDE
 
 #force it to display wider in the console instead of wrapping so narrowly
 pd.set_option('display.width', 250)
+# display the columns of data
+print(df.columns)
 # display the first 5 rows to view example data
+#print(df.head(n=10))
+#not all of the columns are visible in the head print, set pandas to output all of the columns
+pd.options.display.max_columns = 50
+# display the first 5 rows to view example data (this time all columns)
 print(df.head(n=10))
 
 # display summary stats (at least for numeric columns)
-print(df.describe)
+print('\nSummary statistics:')
+print(df.describe())
+
 # check to make sure unique identifier is unique
 print('\nIndex unique? ' + str(df.index.is_unique))
 
@@ -63,8 +71,12 @@ df_counting = pd.DataFrame(df.pivot_table('OBS COUNT MODIFIED', index='COMMON NA
 df_counting.rename(columns={'OBS COUNT MODIFIED': 'OBSERVATIONS'}, inplace=True)
 df_grouped.rename(columns={'GROUPED COUNT': 'BIRDS COUNTED'}, inplace=True)
 
+#view the earliest and latest observation date in the dataset
+#note to check when wider date range available - determining minimum string? does it know this is a date?
+print('\nDate range of observations: ' + str(df['OBSERVATION DATE'].min()) + ' - ' + str(df['OBSERVATION DATE'].max()))
+
 #determine min latitude for any bird sighting in dataset
-print('\nOverall Min Latitude: ' + str(df.min()['LATITUDE']) )
+print('\nOverall Min Latitude: ' + str(df.min()['LATITUDE']))
 
 #get min latitude per species and combine the dataframes
 #and rename the columns before recombining so we can tell what summarization is in each
