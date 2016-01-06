@@ -3,6 +3,7 @@ learning activities for the Data Science Learning Club http://www.becomingadatas
 
 I'm primarily using python 3.5 with pandas, Jupyter notebook, etc.
 
+
 ### My results posts:
 
 Activity 00: Set up your development environment
