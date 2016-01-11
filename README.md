@@ -1,7 +1,8 @@
 ## Data Science Learning Club Activities
-learning activities for the Data Science Learning Club http://www.becomingadatascientist.com/learningclub/
+learning activities for the Data Science Learning Club 
+http://www.becomingadatascientist.com/learningclub/
 
-I'm primarily using python 3.5 with pandas, Jupyter notebook, etc.
+I'm primarily using python 3.5 with pandas, scipy, Jupyter notebook, etc.
 
 
 ### My results posts:
@@ -11,4 +12,7 @@ http://www.becomingadatascientist.com/learningclub/thread-64.html
 
 Activity 01: Find, import, and explore a dataset
 http://www.becomingadatascientist.com/learningclub/thread-65.html
+
+Activity 02: Creating visuals for exploratory data analysis
+http://www.becomingadatascientist.com/learningclub/thread-89.html
 
