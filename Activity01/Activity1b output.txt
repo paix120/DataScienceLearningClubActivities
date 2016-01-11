@@ -1,0 +1,244 @@
+
+b'Skipping line 36575: expected 44 fields, saw 45\n'
+sys:1: DtypeWarning: Columns (18) have mixed types. Specify dtype option on import or set low_memory=False.
+
+Index(['TAXONOMIC ORDER', 'CATEGORY', 'COMMON NAME', 'SCIENTIFIC NAME', 'SUBSPECIES COMMON NAME', 'SUBSPECIES SCIENTIFIC NAME', 'OBSERVATION COUNT', 'BREEDING BIRD ATLAS CODE', 'AGE/SEX', 'COUNTRY', 'COUNTRY_CODE', 'STATE_PROVINCE',
+       'SUBNATIONAL1_CODE', 'COUNTY', 'SUBNATIONAL2_CODE', 'IBA CODE', 'BCR CODE', 'ATLAS BLOCK', 'LOCALITY', 'LOCALITY ID', 'LOCALITY TYPE', 'LATITUDE', 'LONGITUDE', 'OBSERVATION DATE', 'TIME OBSERVATIONS STARTED', 'TRIP COMMENTS',
+       'SPECIES COMMENTS', 'OBSERVER ID', 'FIRST NAME', 'LAST NAME', 'SAMPLING EVENT IDENTIFIER', 'PROTOCOL TYPE', 'PROJECT CODE', 'DURATION MINUTES', 'EFFORT DISTANCE KM', 'EFFORT AREA HA', 'NUMBER OBSERVERS', 'ALL SPECIES REPORTED',
+       'GROUP IDENTIFIER', 'APPROVED', 'REVIEWED', 'REASON', 'Unnamed: 43'],
+      dtype='object')
+                                                TAXONOMIC ORDER CATEGORY                COMMON NAME       SCIENTIFIC NAME  SUBSPECIES COMMON NAME  SUBSPECIES SCIENTIFIC NAME OBSERVATION COUNT BREEDING BIRD ATLAS CODE  \
+GLOBAL UNIQUE IDENTIFIER                                                                                                                                                                                                   
+URN:CornellLabOfOrnithology:EBIRD:OBS289095158             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 1                      NaN   
+URN:CornellLabOfOrnithology:EBIRD:OBS290371528             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 1                      NaN   
+URN:CornellLabOfOrnithology:EBIRD:OBS314963127             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 4                      NaN   
+URN:CornellLabOfOrnithology:EBIRD:OBS314364689             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 3                      NaN   
+URN:CornellLabOfOrnithology:EBIRD:OBS314481748             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 4                      NaN   
+URN:CornellLabOfOrnithology:EBIRD:OBS314147913             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 4                      NaN   
+URN:CornellLabOfOrnithology:EBIRD:OBS314746244             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 1                      NaN   
+URN:CornellLabOfOrnithology:EBIRD:OBS244908279             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 1                      NaN   
+URN:CornellLabOfOrnithology:EBIRD:OBS281005183             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 1                      NaN   
+URN:CornellLabOfOrnithology:EBIRD:OBS291629596             8896  species  Ruby-throated Hummingbird  Archilochus colubris                     NaN                         NaN                 1                      NaN   
+
+                                                                           AGE/SEX  COUNTRY COUNTRY_CODE                  STATE_PROVINCE SUBNATIONAL1_CODE COUNTY SUBNATIONAL2_CODE IBA CODE  BCR CODE ATLAS BLOCK                             LOCALITY  \
+GLOBAL UNIQUE IDENTIFIER                                                                                                                                                                                                                                  
+URN:CornellLabOfOrnithology:EBIRD:OBS289095158                                 NaN  Bermuda           BM                         Bermuda               BM-    NaN               NaN      NaN       NaN         NaN                         Camden Ditch   
+URN:CornellLabOfOrnithology:EBIRD:OBS290371528           Unknown Sex, Immature (1)  Bermuda           BM                         Bermuda               BM-    NaN               NaN      NaN       NaN         NaN                         Camden Ditch   
+URN:CornellLabOfOrnithology:EBIRD:OBS314963127  Female, Adult (2); Male, Adult (2)  Bermuda           BM                         Bermuda               BM-    NaN               NaN      NaN       NaN         NaN                           Wreck Road   
+URN:CornellLabOfOrnithology:EBIRD:OBS314364689  Female, Adult (1); Male, Adult (2)  Bermuda           BM                         Bermuda               BM-    NaN               NaN      NaN       NaN         NaN                           Wreck Road   
+URN:CornellLabOfOrnithology:EBIRD:OBS314481748  Male, Adult (2); Female, Adult (2)  Bermuda           BM                         Bermuda               BM-    NaN               NaN      NaN       NaN         NaN                           Wreck Road   
+URN:CornellLabOfOrnithology:EBIRD:OBS314147913  Male, Adult (2); Female, Adult (2)  Bermuda           BM                         Bermuda               BM-    NaN               NaN      NaN       NaN         NaN                           Wreck Road   
+URN:CornellLabOfOrnithology:EBIRD:OBS314746244                     Male, Adult (1)  Bermuda           BM                         Bermuda               BM-    NaN               NaN      NaN       NaN         NaN                           Wreck Road   
+URN:CornellLabOfOrnithology:EBIRD:OBS244908279           Unknown Sex, Immature (1)  Bahamas           BS  Freeport and West Grand Bahama             BS-FP    NaN               NaN      NaN       NaN         NaN              The Emerald Golf Course   
+URN:CornellLabOfOrnithology:EBIRD:OBS281005183                                 NaN  Bahamas           BS  Freeport and West Grand Bahama             BS-FP    NaN               NaN      NaN       NaN         NaN  Grand Bahama - Garden of the Groves   
+URN:CornellLabOfOrnithology:EBIRD:OBS291629596                   Female, Adult (1)  Bahamas           BS  Freeport and West Grand Bahama             BS-FP    NaN               NaN      NaN       NaN         NaN                  Garden of the Gates   
+
+                                               LOCALITY ID LOCALITY TYPE   LATITUDE  LONGITUDE OBSERVATION DATE TIME OBSERVATIONS STARTED                   TRIP COMMENTS                                   SPECIES COMMENTS OBSERVER ID  \
+GLOBAL UNIQUE IDENTIFIER                                                                                                                                                                                                                   
+URN:CornellLabOfOrnithology:EBIRD:OBS289095158    L2714542             P  32.289563 -64.763417       2015-01-04                  09:30:00                             NaN                                        Photogaphed  obsr130455   
+URN:CornellLabOfOrnithology:EBIRD:OBS290371528    L3284389             P  32.289559 -64.763168       2015-01-04                  15:20:00            Twitch for RT Hummer                                                NaN  obsr348127   
+URN:CornellLabOfOrnithology:EBIRD:OBS314963127    L2700382             H  32.276276 -64.881928       2015-04-29                  16:15:00                             NaN  Photo. Found by David Wingate. A new maxima fo...  obsr498695   
+URN:CornellLabOfOrnithology:EBIRD:OBS314364689    L2700382             H  32.276276 -64.881928       2015-04-30                  10:30:00  E Only, but J the pm prior day                                                NaN  obsr509286   
+URN:CornellLabOfOrnithology:EBIRD:OBS314481748    L2700382             H  32.276276 -64.881928       2015-04-30                  16:10:00                             NaN                                                NaN  obsr130455   
+URN:CornellLabOfOrnithology:EBIRD:OBS314147913    L2700382             H  32.276276 -64.881928       2015-04-29                  16:15:00                             NaN  Photo. Found by David Wingate. A new maxima fo...  obsr130455   
+URN:CornellLabOfOrnithology:EBIRD:OBS314746244    L2700382             H  32.276276 -64.881928       2015-05-01                  16:30:00                             NaN                                                NaN  obsr130455   
+URN:CornellLabOfOrnithology:EBIRD:OBS244908279     L687602             H  26.511633 -78.701549       2014-04-11                  09:00:00                             NaN  A  juvenile or sub-adult feeding on the remain...  obsr234552   
+URN:CornellLabOfOrnithology:EBIRD:OBS281005183     L793798             H  26.552831 -78.573082       2014-11-12                  12:00:00                             NaN    male with its ruby throat, very healthy looking  obsr542615   
+URN:CornellLabOfOrnithology:EBIRD:OBS291629596    L2604456             H  26.504734 -78.651362       2015-01-18                  08:30:00                             NaN  White tips on tail and light belly (Photo sent...  obsr197432   
+
+                                                    FIRST NAME LAST NAME SAMPLING EVENT IDENTIFIER             PROTOCOL TYPE PROJECT CODE  DURATION MINUTES  EFFORT DISTANCE KM  EFFORT AREA HA  NUMBER OBSERVERS  ALL SPECIES REPORTED  \
+GLOBAL UNIQUE IDENTIFIER                                                                                                                                                                                                                  
+URN:CornellLabOfOrnithology:EBIRD:OBS289095158          Andrew    Dobson                 S21192422  eBird - Stationary Count        EBIRD                15                 NaN             NaN                 1                     1   
+URN:CornellLabOfOrnithology:EBIRD:OBS290371528            Paul    Watson                 S21294174  eBird - Stationary Count        EBIRD                15                 NaN             NaN                 1                     1   
+URN:CornellLabOfOrnithology:EBIRD:OBS314963127           Wendy     Frith                 S23180365  eBird - Stationary Count        EBIRD                75                 NaN             NaN                 5                     1   
+URN:CornellLabOfOrnithology:EBIRD:OBS314364689  Erich & Janice    Hetzel                 S23144368  eBird - Stationary Count        EBIRD                60                 NaN             NaN                 1                     1   
+URN:CornellLabOfOrnithology:EBIRD:OBS314481748          Andrew    Dobson                 S23152195  eBird - Stationary Count        EBIRD                30                 NaN             NaN                 1                     1   
+URN:CornellLabOfOrnithology:EBIRD:OBS314147913          Andrew    Dobson                 S23131318  eBird - Stationary Count        EBIRD                75                 NaN             NaN                 5                     1   
+URN:CornellLabOfOrnithology:EBIRD:OBS314746244          Andrew    Dobson                 S23168054  eBird - Stationary Count        EBIRD                20                 NaN             NaN                 3                     1   
+URN:CornellLabOfOrnithology:EBIRD:OBS244908279          Duncan    Mullis                 S17839961  eBird - Stationary Count        EBIRD                60                 NaN             NaN                 1                     1   
+URN:CornellLabOfOrnithology:EBIRD:OBS281005183            Clay   Fennell                 S20562149   eBird - Traveling Count        EBIRD               120               1.609             NaN                 2                     1   
+URN:CornellLabOfOrnithology:EBIRD:OBS291629596           Erika     Gates                 S21395592   eBird - Traveling Count        EBIRD               120               0.402             NaN                 1                     1   
+
+                                               GROUP IDENTIFIER  APPROVED  REVIEWED  REASON  Unnamed: 43  
+GLOBAL UNIQUE IDENTIFIER                                                                                  
+URN:CornellLabOfOrnithology:EBIRD:OBS289095158              NaN         1         1     NaN          NaN  
+URN:CornellLabOfOrnithology:EBIRD:OBS290371528              NaN         1         1     NaN          NaN  
+URN:CornellLabOfOrnithology:EBIRD:OBS314963127         G1247253         1         1     NaN          NaN  
+URN:CornellLabOfOrnithology:EBIRD:OBS314364689              NaN         1         1     NaN          NaN  
+URN:CornellLabOfOrnithology:EBIRD:OBS314481748              NaN         1         1     NaN          NaN  
+URN:CornellLabOfOrnithology:EBIRD:OBS314147913         G1247253         1         1     NaN          NaN  
+URN:CornellLabOfOrnithology:EBIRD:OBS314746244              NaN         1         1     NaN          NaN  
+URN:CornellLabOfOrnithology:EBIRD:OBS244908279              NaN         1         1     NaN          NaN  
+URN:CornellLabOfOrnithology:EBIRD:OBS281005183              NaN         1         1     NaN          NaN  
+URN:CornellLabOfOrnithology:EBIRD:OBS291629596              NaN         1         1     NaN          NaN  
+
+Summary statistics:
+       TAXONOMIC ORDER  SUBSPECIES COMMON NAME  SUBSPECIES SCIENTIFIC NAME       BCR CODE       LATITUDE      LONGITUDE  DURATION MINUTES  EFFORT DISTANCE KM  EFFORT AREA HA  NUMBER OBSERVERS  ALL SPECIES REPORTED  APPROVED       REVIEWED  REASON  \
+count           367508                       0                           0  345309.000000  367508.000000  367508.000000     320015.000000       188694.000000    12267.000000     358542.000000         367508.000000    367508  367508.000000       0   
+mean              8896                     NaN                         NaN      24.156613      38.705388     -82.420585        140.575951            4.896529       70.441027          2.702439              0.928690         1       0.016625     NaN   
+std                  0                     NaN                         NaN       7.211140       5.894630       8.271081        145.318411           19.242386      537.497875         13.238242              0.257342         0       0.127864     NaN   
+min               8896                     NaN                         NaN       5.000000       8.287219    -124.177374          0.000000           -0.402000        0.000000          0.000000              0.000000         1       0.000000     NaN   
+25%               8896                     NaN                         NaN      22.000000      35.390848     -88.186934         52.000000            1.207000        0.809400          1.000000              1.000000         1       0.000000     NaN   
+50%               8896                     NaN                         NaN      26.000000      40.073085     -81.695548        100.000000            2.414000        2.023400          1.000000              1.000000         1       0.000000     NaN   
+75%               8896                     NaN                         NaN      29.000000      42.760793     -75.771804        180.000000            4.828000       10.117100          2.000000              1.000000         1       0.000000     NaN   
+max               8896                     NaN                         NaN      65.000000      58.713871     -52.685372       5400.000000         3411.716000    40468.566000       4180.000000              1.000000         1       1.000000     NaN   
+
+       Unnamed: 43  
+count            0  
+mean           NaN  
+std            NaN  
+min            NaN  
+25%            NaN  
+50%            NaN  
+75%            NaN  
+max            NaN  
+
+Index unique? True
+
+Column Data Types:
+TAXONOMIC ORDER                 int64
+CATEGORY                       object
+COMMON NAME                    object
+SCIENTIFIC NAME                object
+SUBSPECIES COMMON NAME        float64
+SUBSPECIES SCIENTIFIC NAME    float64
+OBSERVATION COUNT              object
+BREEDING BIRD ATLAS CODE       object
+AGE/SEX                        object
+COUNTRY                        object
+COUNTRY_CODE                   object
+STATE_PROVINCE                 object
+SUBNATIONAL1_CODE              object
+COUNTY                         object
+SUBNATIONAL2_CODE              object
+IBA CODE                       object
+BCR CODE                      float64
+ATLAS BLOCK                    object
+LOCALITY                       object
+LOCALITY ID                    object
+LOCALITY TYPE                  object
+LATITUDE                      float64
+LONGITUDE                     float64
+OBSERVATION DATE               object
+TIME OBSERVATIONS STARTED      object
+TRIP COMMENTS                  object
+SPECIES COMMENTS               object
+OBSERVER ID                    object
+FIRST NAME                     object
+LAST NAME                      object
+SAMPLING EVENT IDENTIFIER      object
+PROTOCOL TYPE                  object
+PROJECT CODE                   object
+DURATION MINUTES              float64
+EFFORT DISTANCE KM            float64
+EFFORT AREA HA                float64
+NUMBER OBSERVERS              float64
+ALL SPECIES REPORTED            int64
+GROUP IDENTIFIER               object
+APPROVED                        int64
+REVIEWED                        int64
+REASON                        float64
+Unnamed: 43                   float64
+dtype: object
+
+Count of null values by column (columns with no nulls not displayed): 
+SUBSPECIES COMMON NAME        367508
+SUBSPECIES SCIENTIFIC NAME    367508
+BREEDING BIRD ATLAS CODE      363334
+AGE/SEX                       339053
+COUNTY                          4160
+SUBNATIONAL2_CODE               4160
+IBA CODE                      299883
+BCR CODE                       22199
+ATLAS BLOCK                   364922
+LOCALITY                           1
+TIME OBSERVATIONS STARTED      13484
+TRIP COMMENTS                 169232
+SPECIES COMMENTS              339561
+FIRST NAME                       394
+LAST NAME                        392
+DURATION MINUTES               47493
+EFFORT DISTANCE KM            178814
+EFFORT AREA HA                355241
+NUMBER OBSERVERS                8966
+GROUP IDENTIFIER              292514
+REASON                        367508
+Unnamed: 43                   367508
+dtype: int64
+
+1 Row with null Locality: 
+GLOBAL UNIQUE IDENTIFIER   URN:CornellLabOfOrnithology:EBIRD:OBS321683964
+TAXONOMIC ORDER                                                      8896
+CATEGORY                                                          species
+COMMON NAME                                     Ruby-throated Hummingbird
+SCIENTIFIC NAME                                      Archilochus colubris
+SUBSPECIES COMMON NAME                                                NaN
+SUBSPECIES SCIENTIFIC NAME                                            NaN
+OBSERVATION COUNT                                                       1
+BREEDING BIRD ATLAS CODE                                              NaN
+AGE/SEX                                                               NaN
+COUNTRY                                                     United States
+COUNTRY_CODE                                                           US
+STATE_PROVINCE                                             South Carolina
+SUBNATIONAL1_CODE                                                   US-SC
+COUNTY                                                         Greenville
+SUBNATIONAL2_CODE                                               US-SC-045
+IBA CODE                                                              NaN
+BCR CODE                                                               29
+ATLAS BLOCK                                                           NaN
+LOCALITY                                                              NaN
+LOCALITY ID                                                      L3661308
+LOCALITY TYPE                                                           P
+LATITUDE                                                           34.813
+LONGITUDE                                                         -82.402
+OBSERVATION DATE                                               2015-05-21
+TIME OBSERVATIONS STARTED                                        08:00:00
+TRIP COMMENTS                                                         NaN
+SPECIES COMMENTS                                                      NaN
+OBSERVER ID                                                    obsr627403
+FIRST NAME                                                           Will
+LAST NAME                                                           Kelly
+SAMPLING EVENT IDENTIFIER                                       S23560461
+PROTOCOL TYPE                                    eBird - Stationary Count
+PROJECT CODE                                                        EBIRD
+DURATION MINUTES                                                       90
+EFFORT DISTANCE KM                                                    NaN
+EFFORT AREA HA                                                        NaN
+NUMBER OBSERVERS                                                        1
+ALL SPECIES REPORTED                                                    1
+GROUP IDENTIFIER                                                      NaN
+APPROVED                                                                1
+REVIEWED                                                                0
+REASON                                                                NaN
+Unnamed: 43                                                           NaN
+
+1000th Row, 12th column (State/Province): Alberta
+
+Number of Ruby-Throated Hummingbird sightings (rows) in dataset:
+Ruby-throated Hummingbird    367508
+Name: COMMON NAME, dtype: int64
+
+Date range of observations: 2013-01-01 - 2015-08-31
+
+Summary: latitude ranges and counts:
+                           MIN LATITUDE  MAX LATITUDE
+COMMON NAME                                          
+Ruby-throated Hummingbird      8.287219     58.713871
+
+Summary: latitude ranges by Observation Month:
+           MIN LATITUDE  MAX LATITUDE
+OBS MONTH                            
+01             8.411099     39.018334
+02             8.355031     37.242940
+03             8.320382     35.977867
+04             8.880535     45.423301
+05            15.593136     56.249273
+06            25.941809     58.713871
+07            24.573400     56.125701
+08            13.938826     56.244044
+09             8.287219     53.871154
+10             8.287219     48.380027
+11             9.403884     46.247390
+12             8.540657     42.862091
+
+Process finished with exit code 0
