@@ -23,15 +23,26 @@ print(df.head(n=10))
 print('\nSummary statistics:')
 print(df.describe())
 
-
 # check to make sure unique identifier is unique
 print('\nIndex unique? ' + str(df.index.is_unique))
 
-# get the count for each bird species' sightings (by common name),
-# and filter out those that have been seen less than 3 times
+#data types of columns
+print('\nColumn Data Types:')
+print(df.dtypes)
+
+#how many empty/null values in each column?
+print('\nCount of null values by column: ')
+#display the oolumns with blank values (skip others)
+print(df.isnull().sum()[df.isnull().sum() > 0])
+#print that one row with a null locality
+print('\n1 Row with null Locality: ')
+print(df.loc[df['LOCALITY'].isnull()].transpose())
+
+#row-col indexing - print the 1000th row, 13th column
+print('\n1000th Row, 12th column (State/Province): ' + df.ix[1000][11])
+
+# get the count for each bird species' sightings (by common name)
 cn = pd.Series(df['COMMON NAME']).value_counts()
-# cn = cn[cn > 2]
-# # display the list of species seen 3 or more times
 print('\nRuby-Throated Hummingbird sightings in dataset:')
 print(cn)
 
