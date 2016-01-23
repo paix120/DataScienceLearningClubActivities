@@ -18,21 +18,6 @@ print(df.columns)
 # display the first 10 rows to view example data (this time all columns)
 print(df.head(n=10))
 
-# display summary stats (at least for numeric columns)
-#print('\nSummary statistics:')
-#print(df.describe())
-
-# data types of columns
-print('\nColumn Data Types:')
-print(df.dtypes)
-
-#how many counts per observer?
-df_observers = pd.DataFrame(df.pivot_table('APPROVED', index='OBSERVER ID', aggfunc='count'))
-print(df_observers[df_observers['APPROVED'] > 400].sort_values(by="APPROVED"))
-cut_observers = pd.cut(df_observers, bins=25)
-print(pd.value_counts(cut_observers[:,0]))
-pd.value_counts(cut_observers[:,0]).plot(kind="bar")
-
 #narrow down the dataset for plotting
 df_plot = df.loc[:,('OBSERVATION COUNT','COUNTRY','STATE_PROVINCE','LATITUDE','LONGITUDE','OBSERVATION DATE')]
 #[['OBSERVATION COUNT','COUNTRY','STATE_PROVINCE','LATITUDE','LONGITUDE','OBSERVATION DATE']] #<< got error when I did it this way, then tried to convert slice column to int below
@@ -49,37 +34,6 @@ import seaborn as sns
 sns.pairplot(df_plot[['OBSERVATION COUNT','LATITUDE','LONGITUDE','OBS MONTH']], x_vars=['OBSERVATION COUNT','LATITUDE','LONGITUDE','OBS MONTH'], y_vars=['LATITUDE','OBS MONTH'])
 sns.plt.show()
 
-#bar charts of count by bucket for key columns
-sns.countplot(x="OBS YEAR", data=df_plot)
-sns.plt.show()
-sns.countplot(x="COUNTRY", data=df_plot)
-sns.plt.show()
-#note - don't use countplot on longitude! doesn't finish - more for categorical data w/few categories
-sns.jointplot("LONGITUDE", "LATITUDE", data=df_plot)
-sns.plt.show()
-sns.jointplot("LATITUDE", "OBS MONTH", data=df_plot)
-sns.plt.show()
+#create map like tableau of first sightings by region (or by observer?)
 
-
-#sns.pairplot(df_plot[['OBSERVATION COUNT','LATITUDE','LONGITUDE','OBS MONTH']], kind="reg", diag_kind="kde")
-#sns.plt.show()
-
-#g = sns.pairplot(df_plot[['OBSERVATION COUNT','LATITUDE','LONGITUDE','OBS MONTH']])
-#g = g.map_diag(sns.plt.hist)
-#g = g.map_lower(sns.kdeplot, cmap="Blues_d")
-#g = g.map_upper(sns.regplot)
-#sns.plt.show()
-
-#sns.pairplot(df_plot[['OBSERVATION COUNT','LATITUDE','LONGITUDE','OBS MONTH','OBS YEAR']], hue="OBS YEAR")
-#sns.plt.show()
-
-#seaborn histogram/distribution of observation count
-#sns.distplot(df_plot['OBSERVATION COUNT'][df_plot['OBSERVATION COUNT'] < 30],bins=100)
-#sns.plt.show()
-
-#seaborn boxplots for mexico, US, canada
-#.isin(['UNITED STATES','MEXICO','CANADA'])], col="COUNTRY")
-#sns.boxplot(x="OBS MONTH", y="LATITUDE", data=df_plot[df_plot['COUNTRY'] == 'UNITED STATES'], palette="Blues_d")
-#sns.plt.show()
-#how do you show it?? oh, shows up after you close the prior one....
-
+#show range per month
