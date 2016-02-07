@@ -30,6 +30,7 @@ print(df.dtypes)
 df_observers = pd.DataFrame(df.pivot_table('APPROVED', index='OBSERVER ID', aggfunc='count'))
 print(df_observers[df_observers['APPROVED'] > 400].sort_values(by="APPROVED"))
 cut_observers = pd.cut(df_observers, bins=25)
+print('\n')
 print(pd.value_counts(cut_observers[:,0]))
 pd.value_counts(cut_observers[:,0]).plot(kind="bar")
 
