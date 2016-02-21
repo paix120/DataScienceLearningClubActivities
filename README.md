@@ -14,3 +14,7 @@ I'm primarily using python 3.5 with pandas, scipy, Jupyter notebook, etc.
 
 [Activity 03: Asking business questions & communicating data answers](http://www.becomingadatascientist.com/learningclub/thread-116.html)
 
+[Activity 04: Math Learning, no code](http://www.becomingadatascientist.com/learningclub/thread-117.html)
+
+[Activity 05: Naive Bayes](http://www.becomingadatascientist.com/learningclub/thread-130.html)
+
