@@ -12,6 +12,7 @@ I'm primarily using python 3.5 with pandas, scipy, Jupyter notebook, etc.
 
 [Activity 02: Creating visuals for exploratory data analysis](http://www.becomingadatascientist.com/learningclub/thread-89.html)
 >>>[Ruby-throated Hummingbird Migration visualizations in Tableau and seaborn](http://www.becomingadatascientist.com/learningclub/thread-89.html)
+
 [Activity 03: Asking business questions & communicating data answers](http://www.becomingadatascientist.com/learningclub/thread-116.html) <br/>
 >>>[Ruby-Throated Hummingbird US Migration Interactive Q&A](http://nbviewer.jupyter.org/github/paix120/DataScienceLearningClubActivities/blob/master/Activity03/Hummingbird%20Migration%20Interactive%20Jupyter%20Notebook.ipynb) (jupyter notebook, minus interactive tools that require server)
 
